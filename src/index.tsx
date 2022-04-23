@@ -7,6 +7,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+let id: number = 5;
+ 
 root.render(
   <React.StrictMode>
     <App />
